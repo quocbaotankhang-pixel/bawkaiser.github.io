@@ -198,57 +198,31 @@ h1{
   box-shadow:0 0 30px cyan;
 }
     .menu-box{
-    width:90%;
-    max-width:700px;
-    margin:30px auto;
-    padding:20px;
-    background:#07111f;
-    border:2px solid #00e5ff;
-    border-radius:20px;
-    box-shadow:0 0 20px #00e5ff;
+    width: 90%;
+    height: 300px;
+    margin: 20px auto;
+    padding: 15px;
+
+    background: rgba(0,0,0,0.5);
+    border: 2px solid cyan;
+    border-radius: 20px;
+
+    overflow-y: auto;
+
+    box-shadow: 0 0 20px cyan;
 }
 
-.menu-title{
-    color:#00e5ff;
-    font-size:30px;
-    font-weight:bold;
-    margin-bottom:25px;
-    text-shadow:0 0 10px cyan;
+/* thanh scroll */
+
+.menu-box::-webkit-scrollbar{
+    width: 5px;
 }
 
-.menu-category{
-    color:#00e5ff;
-    font-size:22px;
-    margin:25px 0 15px;
-    border-left:5px solid cyan;
-    padding-left:10px;
-    font-weight:bold;
+.menu-box::-webkit-scrollbar-thumb{
+    background: cyan;
+    border-radius: 10px;
 }
-
-.menu-item{
-    display:flex;
-    justify-content:space-between;
-    padding:15px 10px;
-    border-bottom:1px solid rgba(0,255,255,0.2);
-    font-size:20px;
-}
-
-.menu-item span{
-    color:white;
-}
-
-.menu-price{
-    color:#00ffd5;
-    font-weight:bold;
-    text-shadow:0 0 10px #00ffd5;
-}
-
-.note{
-    margin-top:20px;
-    color:#00e5ff;
-    font-size:20px;
-    line-height:1.6;
-}
+   
   </style>
 </head>
   <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet">
@@ -276,68 +250,24 @@ h1{
     </div>
 
     <a href="#" class="btn">Liên Hệ Để BawKai Tư Vấn!</a>
+    <div class="menu-box">
+
+<h2>⚡ FILE - REG SIÊU VIP</h2>
+
+<p>🎯 Aimlock Optimize 1.0 - 50.000đ</p>
+<p>🎯 Aimlock Optimize 2.0 - 100.000đ</p>
+<p>🎯 Aimlock Optimize 3.0 - 150.000đ</p>
+<p>🎯 Aimlock Optimize 4.0 - 250.000đ</p>
+
+<p>✨ Aimlock Limited 1.0 - 150.000đ</p>
+<p>✨ Aimlock Limited 2.0 - 300.000đ</p>
+<p>✨ Aimlock Limited 3.0 - 500.000đ</p>
+
+<p>✅ Hỗ trợ tận tình</p>
+<p>💬 IB là có hết</p>
 
 </div>
-<div class="menu-box">
 
-    <div class="menu-title">⚡ FILE - REG SIÊU VIP</div>
-
-    <div class="menu-category">🎯 AIMLOCK OPTIMIZE</div>
-
-    <div class="menu-item">
-        <span>🎯 Aimlock Optimize 1.0</span>
-        <div class="menu-price">50.000đ</div>
-    </div>
-
-    <div class="menu-item">
-        <span>🎯 Aimlock Optimize 2.0</span>
-        <div class="menu-price">100.000đ</div>
-    </div>
-
-    <div class="menu-item">
-        <span>🎯 Aimlock Optimize 3.0</span>
-        <div class="menu-price">150.000đ</div>
-    </div>
-
-    <div class="menu-item">
-        <span>🎯 Aimlock Optimize 4.0</span>
-        <div class="menu-price">250.000đ</div>
-    </div>
-
-    <div class="menu-item">
-        <span>🎯 Aimlock Optimize 5.0</span>
-        <div class="menu-price">400.000đ</div>
-    </div>
-
-    <div class="menu-category">✨ AIMLOCK LIMITED</div>
-
-    <div class="menu-item">
-        <span>✨ Aimlock Limited 1.0</span>
-        <div class="menu-price">150.000đ</div>
-    </div>
-
-    <div class="menu-item">
-        <span>✨ Aimlock Limited 2.0</span>
-        <div class="menu-price">300.000đ</div>
-    </div>
-
-    <div class="menu-item">
-        <span>✨ Aimlock Limited 3.0</span>
-        <div class="menu-price">500.000đ</div>
-    </div>
-
-    <div class="menu-item">
-        <span>✨ Aimlock Limited 4.0</span>
-        <div class="menu-price">600.000đ</div>
-    </div>
-
-    <div class="note">
-        ✅ CAM KẾT: Hỗ trợ tận mồm - Hướng dẫn cài chi tiết
-        <br><br>
-        💬 Nói chung là có hết - IB là có
-    </div>
-
-</div>
 <audio id="bgmusic" loop>
     <source src="https://files.catbox.moe/zae6ys.mp3" type="audio/mp3">
 </audio>
