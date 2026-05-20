@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Profile Cá Nhân</title>
+
+  <style>
+    *{
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body{
+      background: linear-gradient(135deg,#1e3c72,#2a5298);
+      color:white;
+      min-height:100vh;
+      display:flex;
+      justify-content:center;
+      align-items:center;
+      padding:20px;
+    }
+
+    .card{
+      width:350px;
+      background: rgba(255,255,255,0.1);
+      backdrop-filter: blur(10px);
+      border-radius:20px;
+      padding:30px;
+      text-align:center;
+      box-shadow:0 10px 30px rgba(0,0,0,0.3);
+      transition:0.3s;
+    }
+
+    .card:hover{
+      transform:translateY(-5px);
+    }
+
+    .avatar{
+      width:120px;
+      height:120px;
+      border-radius:50%;
+      object-fit:cover;
+      border:4px solid white;
+      margin-bottom:20px;
+    }
+
+    h1{
+      font-size:28px;
+      margin-bottom:10px;
+    }
+
+    .job{
+      color:#dfe9ff;
+      margin-bottom:20px;
+    }
+
+    .desc{
+      font-size:14px;
+      line-height:1.6;
+      margin-bottom:25px;
+    }
+
+    .social{
+      display:flex;
+      justify-content:center;
+      gap:15px;
+    }
+
+    .social a{
+      text-decoration:none;
+      color:white;
+      background:rgba(255,255,255,0.2);
+      padding:10px 15px;
+      border-radius:10px;
+      transition:0.3s;
+    }
+
+    .social a:hover{
+      background:white;
+      color:#2a5298;
+    }
+
+    .btn{
+      display:inline-block;
+      margin-top:20px;
+      padding:12px 20px;
+      background:white;
+      color:#2a5298;
+      border-radius:10px;
+      text-decoration:none;
+      font-weight:bold;
+      transition:0.3s;
+    }
+
+    .btn:hover{
+      background:#dfe9ff;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="card">
+    <img 
+      class="avatar"
+      src="https://i.pravatar.cc/300" 
+      alt="avatar"
+    >
+
+    <h1>QzocBaw</h1>
+
+    <p class="job">Web ⚡ · FILE - REG - AIM - SOURCE ⚡</p>
+
+    <p class="desc">
+      QzocBaw  
+     🌀 CHUYÊN CUNG CẤP ĐỒ CHƠI CHẤT LƯỢNG CAO 🌀
+    </p>
+
+    <div class="social">
+      <a href="https://facebook.com/Lbaoz2k">Facebook</a>
+      <a href="https://zalo.me/0352398370">Zalo</a>
+      <a href="https://www.tiktok.com/@baor.chupi_">TikTok</a>
+    </div>
+
+    <a href="#" class="btn">Liên Hệ</a>
+  </div>
+
+</body>
+</html>
