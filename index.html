@@ -227,4 +227,27 @@ h1{
   </div>
 
 </body>
+  <button id="musicBtn">🎵 Bật Nhạc</button>
+
+<audio id="bgmusic" loop>
+  <source src="v1c044g50000d7vv7efog65no2pmq5ig.mp3" type="audio/mp3">
+</audio>
+
+<script>
+const music = document.getElementById("bgmusic");
+const btn = document.getElementById("musicBtn");
+
+btn.addEventListener("click", () => {
+
+  if(music.paused){
+    music.play();
+    btn.innerHTML = "⏸ Tắt Nhạc";
+  }else{
+    music.pause();
+    btn.innerHTML = "🎵 Bật Nhạc";
+  }
+
+});
+</script>
+</body>
 </html>
