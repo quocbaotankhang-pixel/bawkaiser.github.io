@@ -203,17 +203,60 @@ h1{
   transform:scale(1.08);
   box-shadow:0 0 30px cyan;
 }
-    .menu-box{
-    height: 220px;
-    overflow-y: auto;
-    padding: 15px;
+   .menu-title{
+    color:#00d9ff;
+    font-size:18px;
+    font-weight:bold;
+    margin:15px 0;
+    text-shadow:0 0 10px cyan;
 }
-   .menu-box{
-    height: 170px;
-    overflow-y: auto;
 
-    padding: 10px;
-    border-radius: 15px;
+.menu-box{
+    width:100%;
+    height:330px;
+
+    overflow-y:auto;
+
+    background:#06111f;
+
+    border:1px solid rgba(0,255,255,0.3);
+
+    border-radius:15px;
+
+    padding:15px;
+
+    box-shadow:0 0 15px cyan;
+}
+
+.menu-box::-webkit-scrollbar{
+    width:0;
+}
+
+.menu-section h3{
+    color:#00d9ff;
+    margin-bottom:15px;
+    border-left:4px solid cyan;
+    padding-left:10px;
+}
+
+.menu-item{
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    padding:12px 0;
+
+    border-bottom:1px solid rgba(0,255,255,0.15);
+
+    color:white;
+
+    font-size:15px;
+}
+
+.menu-item b{
+    color:#00ffd5;
 }
    
   </style>
@@ -243,23 +286,69 @@ h1{
     </div>
 
     <a href="#" class="btn">Liên Hệ Để BawKai Tư Vấn!</a>
-    <h2 class="menu-title">⚡ FILE - REG SIÊU VIP</h2><br>
-    <div class="menu-box">
+    <h2 class="menu-title">⚡ FILE - REG SIÊU VIP</h2>
 
-<p>🎯 Aimlock Optimize 1.0 - 50.000đ</p>
-<p>🎯 Aimlock Optimize 2.0 - 100.000đ</p>
-<p>🎯 Aimlock Optimize 3.0 - 150.000đ</p>
-<p>🎯 Aimlock Optimize 4.0 - 250.000đ</p>
+<div class="menu-box">
 
-<p>✨ Aimlock Limited 1.0 - 150.000đ</p>
-<p>✨ Aimlock Limited 2.0 - 300.000đ</p>
-<p>✨ Aimlock Limited 3.0 - 500.000đ</p>
+<div class="menu-section">
+<h3>🎯 AIMLOCK OPTIMIZE</h3>
 
-<p>✅ Hỗ trợ tận tình</p>
-<p>💬 IB là có hết</p>
+<div class="menu-item">
+<span>🎯 Aimlock Optimize 1.0</span>
+<b>50.000đ</b>
+</div>
+
+<div class="menu-item">
+<span>🎯 Aimlock Optimize 2.0</span>
+<b>100.000đ</b>
+</div>
+
+<div class="menu-item">
+<span>🎯 Aimlock Optimize 3.0</span>
+<b>150.000đ</b>
+</div>
+
+<div class="menu-item">
+<span>🎯 Aimlock Optimize 4.0</span>
+<b>250.000đ</b>
+</div>
+
+<div class="menu-item">
+<span>🎯 Aimlock Optimize 5.0</span>
+<b>400.000đ</b>
+</div>
 
 </div>
 
+<div class="menu-section">
+<h3>✨ AIMLOCK LIMITED</h3>
+
+<div class="menu-item">
+<span>✨ Aimlock Limited 1.0</span>
+<b>150.000đ</b>
+</div>
+
+<div class="menu-item">
+<span>✨ Aimlock Limited 2.0</span>
+<b>300.000đ</b>
+</div>
+
+<div class="menu-item">
+<span>✨ Aimlock Limited 3.0</span>
+<b>500.000đ</b>
+</div>
+
+<div class="menu-item">
+<span>✨ Aimlock Limited 4.0</span>
+<b>600.000đ</b>
+</div>
+
+</div>
+
+<p>✅ CAM KẾT: Hỗ trợ tận tình - Hướng dẫn cài chi tiết</p>
+<p>💬 Nói chung là Có Hết - IB là có</p>
+
+</div>
 <audio id="bgmusic" loop>
     <source src="https://files.catbox.moe/zae6ys.mp3" type="audio/mp3">
 </audio>
